@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cstdio>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    // Complete the code.
+    int i;
+    long l;
+    char ch;
+    float fl;
+    double db;
+    scanf("%d %ld %c %f %lf", &i, &l, &ch, &fl, &db);
+    cout<<i<<endl;
+    cout<<l<<endl;
+    cout<<ch<<endl;
+    cout<<fixed;
+    cout<<setprecision(3)<<fl<<endl;
+    cout<<setprecision(9)<<db<<endl;
+    return 0;
+}
