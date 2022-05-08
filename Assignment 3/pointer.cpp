@@ -5,12 +5,8 @@ using namespace std;
 void update(int *a,int *b) {
     // Complete this function   
      int c = *b;
-     if(*a<*b){
-         *b= (*b)-(*a);
-        }else{
-            *b = (*a) - (*b);
-        }
-    *a = (*a)+c;
+     *b= abs(*a - *b);
+     *a = (*a)+c;
 }
 
 int main() {
@@ -23,3 +19,4 @@ int main() {
 
     return 0;
 }
+
