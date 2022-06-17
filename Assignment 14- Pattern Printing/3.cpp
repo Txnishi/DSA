@@ -6,11 +6,6 @@ int main() {
 
 int num, len, temp;
 cin>>num;
-temp = num;
-while(temp!= 0){
-	temp= temp/10;
-	len++;
-}
 
 while(num!= 0){
 int a = num%10;
