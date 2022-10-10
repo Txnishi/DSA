@@ -4,14 +4,14 @@ public:
         
         int left = 0;
         int right = INT_MAX;
-        int index;
+        int sq;
         
         while(left <= right){
             
             long mid = (left + right)/2;
             
             if(mid*mid <= x ){
-                index = mid;
+                sq = mid;
                 left = mid + 1;
             }else{
                 
@@ -20,7 +20,7 @@ public:
             }  
         }
         
-        return index;
+        return sq;
         
         
     }
