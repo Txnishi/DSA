@@ -15,10 +15,7 @@ public:
         ListNode* head = new ListNode(-1);
         ListNode* result = head;
         ListNode* one = list1;
-        ListNode* one2 = list1;
         ListNode* two = list2;
-        ListNode* two2 = list2;
-        
         
         if(list1 == NULL){
             return list2;
