@@ -5,7 +5,8 @@
 #include <assert.h>
 
 void insertionSort(int N, int arr[]) {
-    int i,j;
+
+    int i,j,tyu;
     int value;
     for(i=1;i<N;i++)
     {
